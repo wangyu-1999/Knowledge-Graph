@@ -1,0 +1,13 @@
+打包步骤：
+1.在前端运行 npm run build ，然后在dist文件夹中可以获得静态文件
+2.在后端maven中执行clean，将前端dist文件中的东西粘贴到后端\kgbackend\src\main\resources\static中
+3.在后端maven中执行package
+4.jar包在\kgbackend\target中
+
+版本：
+Neo4j最佳适配	3.5.22
+MySQL最佳适配	8.0.21
+Java最佳适配	11.0.7
+maven最佳适配	3.6.3
+前端开发工具	vscode
+后端开发工具	idea
